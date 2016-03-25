@@ -1,0 +1,24 @@
+# This file contains Asia (East, South-East)
+# Test data - do not use
+
+- 
+  city: Singapore
+  country: Singapore
+  eventname: Singapore International Tango Festival
+  datestart: 2016-10-09
+  dateend:   2016-10-13
+
+- 
+  city: Kuala Lumpur
+  country: Malaysia
+  eventname: Kuala Lumpur International Tango Festival
+  datestart: 2016-03-09
+  dateend:   2016-03-12
+
+-
+  city: Tokyo
+  country: Japan
+  eventname: Campeonato Asiatico
+  datestart: 2016-06-23
+  dateend:   2016-06-25
+  
