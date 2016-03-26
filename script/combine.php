@@ -17,17 +17,21 @@
     $pn = $fileinfo->getPathname();
 
     echo "FOUND ".$fn . "<br>\n";
-    $dbfrag = $yaml->parse(file_get_contents($pn));
+    try {
+      $dbfrag = $yaml->parse(file_get_contents($pn));
+    } catch (Exception $e) {
+      echo "ERROR!";
+    }
     
-    foreach ($dbfrag as $d) {
-      $ct = $d['city'];
+    foreach ($dbfrag as $k=>$d) {
+      $ct = $d['City'];
       $key = array_search ($ct, array_column($cities,'id'));
-      echo "Search $ct is ";
       if ($key) {
-        echo "Coordinates at ";
-        var_dump($cities[$key]['geometry']['coordinates']);
-      } else {
-        echo "NOT FOUND\n";
+        $dbfrag[$k]['coordinates'] = 
+          $cities[$key]['geometry']['coordinates'];
+      }
+      else {
+          echo "Unknown city = ".$ct."\n";
       }
     }
 
@@ -36,7 +40,20 @@
 
   }
   echo "-------\nDUMP:\n";
-  var_dump($db);
+  //var_dump($db);
 
-  echo "------\nCITIES:\n";
-  var_dump($cities);
+  //echo "------\nCITIES:\n";
+  //var_dump($cities);
+
+
+  $cnt = 0;
+  foreach ($db as $m) {
+    echo "FILE ";
+    $x = count($m);
+    echo $x;
+    $cnt += $x;
+    echo " => ";
+    echo $m[0]['Country'];
+    echo "\n";
+  }
+  echo "TOTAL is ".$cnt."\n";
