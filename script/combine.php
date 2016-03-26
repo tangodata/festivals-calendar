@@ -9,7 +9,7 @@
 
 
   $db = [];
-  $source = "../source/";
+  $source = "../src/";
   foreach (new DirectoryIterator($source) as $fileinfo) {
     if ($fileinfo->isDot()) continue;
     if ($fileinfo->getExtension() != 'yml') continue;
@@ -40,7 +40,7 @@
 
   }
   echo "-------\nDUMP:\n";
-  //var_dump($db);
+  var_dump($db);
 
   //echo "------\nCITIES:\n";
   //var_dump($cities);
