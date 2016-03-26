@@ -1,5 +1,5 @@
 {
-  "name": "Festivalscalendar",
+  "name": "Festivals Calendar",
   "tagline": "List of upcoming Tango Festivals by crowd-sourced ",
   "body": "# Tangodata List of Upcoming Festivals/Marathons\r\n\r\nCrowdsourced information list from user-submissions and public announcements.\r\nIt is expected the data is rebuilt once a month, and contains valid information\r\nfor the next 12 months on rolling basis.\r\n\r\nThe structure of the projects:\r\n\r\n## inputs\r\n\r\n- input data is stored in YML format\r\n- one file per region/country/city (depending on volume)\r\n- core information in English\r\n\r\n## processors\r\n\r\n- build stage combines all the raw YML files\r\n- old/expired entries go to Archive, new/future entries go to Current\r\n\r\n## outputs\r\n\r\n- basic files are Current and Archive in YML\r\n- equivalent files in JSON, Comma-delimited text\r\n\r\n",
   "note": "Don't delete this file! It's used internally to help with page regeneration."
