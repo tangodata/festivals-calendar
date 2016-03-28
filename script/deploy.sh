@@ -5,6 +5,7 @@
 rev=$(git rev-parse --short HEAD)
 
 cd _build
+ls -la
 
 git init
 git config user.name "KaceO"
@@ -12,10 +13,11 @@ git config user.email "kaceong@gmail.com"
 
 git remote add upstream "https://$GH_TOKEN@github.com/tangodata/festivalscalendar.git"
 
-//git fetch upstream && 
+git fetch upstream && 
 git reset upstream/gh-pages
 
-# echo "festivalscalendar.data.tangueros.net" > CNAME
+echo "festivalscalendar.data.tangueros.net" > CNAME
+ls -la
 
 touch .
 
