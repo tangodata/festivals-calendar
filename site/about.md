@@ -5,11 +5,11 @@ subtitle: Why are we doing this?
 ---
 
 The whole purpose of Tango is to allow two people to 
-hold each other and enjoy a dance together.   
+hold each other and enjoy a dance together.
 This is a beautiful thing when it happens.
 
 For many people, the community they live in provides 
-a small pool of potential dance partners.  
+a small pool of potential dance partners.
 Frequently dancers wish to dance with new people, to grow, 
 or to challenge themselves.
 
@@ -27,7 +27,7 @@ Here are some popular, well-maintained data sources:
 - festivalsero.org
 
 Because details of festivals are being announced constantly,
-it is a major effort to try to keep a current list.  
+it is a major effort to try to keep a current list.
 Frequently the information that has been collected becomes
 out-of-date.
 
