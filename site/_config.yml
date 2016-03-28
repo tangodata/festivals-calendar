@@ -10,14 +10,8 @@
 # If you are building a GitHub project page then use these settings:
 url: "http://tangodata.github.io/festivalscalendar"
 baseurl: "/festivalscalendar"
-
-# Of course don't forget to change the username and projectname to YOUR username and project
-
-# Name of website
-title: A Testing Website
-
-# Short description of your site
-description: A virtual proof that name is awesome!
+title: Tangodata Festivals
+description: We have data, let's share
 
 # --- Navigation bar options --- #
 
