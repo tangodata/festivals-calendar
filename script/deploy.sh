@@ -5,7 +5,6 @@
 rev=$(git rev-parse --short HEAD)
 
 cd _build
-ls -la
 
 git init
 git config user.name "KaceO"
@@ -17,7 +16,6 @@ git fetch upstream &&
 git reset upstream/gh-pages
 
 echo "festivalscalendar.data.tangueros.net" > CNAME
-ls -la
 
 touch .
 
