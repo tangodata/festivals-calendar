@@ -1,0 +1,14 @@
+name: tangodata festivalscalendar
+url: 
+description: easily view the calendar
+baseurl: /festivalscalendar
+ 
+
+
+github: [metadata]
+kramdown:
+  input: GFM
+  hard_wrap: false
+gems:
+  - jekyll-coffeescript
+  - jekyll-paginate
