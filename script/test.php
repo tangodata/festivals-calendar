@@ -9,7 +9,7 @@ echo <<<EOF
 </head>
 <body>
   <h1>Welcome!</h1>
-  <img src="cat.jpg">
+  <img src="res/cat.jpg">
   <p>Isn't that cute??</p>
 </body>
 </html>
