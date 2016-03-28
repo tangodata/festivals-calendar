@@ -8,7 +8,9 @@ check:
 
 generate-ci: 
 	@echo "Generating!!!"
-	cat "GOOD!" > more.html
+	make -p _build
+	cp -r site _build
+	echo "GOOD!" > _build/more.html
 
 	
 
