@@ -7,10 +7,11 @@ check:
 	@echo "We're Good!"
 
 generate-ci: 
-	@echo "Generating!!!"
 	mkdir -p _build
 	cp -r site _build
-	echo "GOOD!" > _build/more.html
+	php ./script/test.php > _build/index.html
+
+	@echo "Generating Done!!!"
 
 	
 
