@@ -1,3 +1,9 @@
+name: tangodata festivalscalendar
+url: 
+description: easily view the calendar
+ 
+
+
 github: [metadata]
 kramdown:
   input: GFM

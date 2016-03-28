@@ -9,7 +9,7 @@ check:
 generate-ci: 
 	mkdir -p _build
 	cp -r site/* _build
-	php ./script/test.php > _build/index.html
+	php ./script/test.php > _build/data.html
 
 	@echo "Generating Done!!!"
 
