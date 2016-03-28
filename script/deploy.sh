@@ -15,7 +15,7 @@ git remote add upstream "https://$GH_TOKEN@github.com/tangodata/festivalscalenda
 git fetch upstream && 
 git reset upstream/gh-pages
 
-echo "festivalscalendar.data.tangueros.net" > CNAME
+echo "festivalscalendar.data.tangueros.net" > ZCNAME
 
 touch .
 
