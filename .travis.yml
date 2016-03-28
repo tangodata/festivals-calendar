@@ -8,7 +8,7 @@ script:
   - make generate-ci
 
 after_success:
-  - test $TRAVIS_PULL_REQUEST == "false" && test $TRAVIS_BRANCH == "master" && bash ci/deploy.sh
+  - test $TRAVIS_PULL_REQUEST == "false" && test $TRAVIS_BRANCH == "master" && bash script/deploy.sh
 
 env:
   global:

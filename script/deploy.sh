@@ -4,7 +4,7 @@
 
 rev=$(git rev-parse --short HEAD)
 
-cd htdocs
+cd site
 
 git init
 git config user.name "KaceO"

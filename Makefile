@@ -8,6 +8,8 @@ check:
 
 generate-ci: 
 	@echo "Generating!!!"
+	cat "GOOD!" > more.html
+
 	
 
 	
