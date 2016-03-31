@@ -13,6 +13,9 @@ baseurl: "/festivalscalendar"
 title: Tangodata Festivals
 description: We have data, let's share
 
+port: 4000
+host: 192.168.1.2
+
 # --- Navigation bar options --- #
 
 # List of links in the navigation bar
