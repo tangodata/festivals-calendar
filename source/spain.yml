@@ -139,11 +139,14 @@
     City: Benidorm
     Url: http://www.benidormtangofestival.com/
     fburl: 
-    emurl: 
-    tfnurl: 
-    tfsrurl: http://www.festivalsero.com/benidorm_tango_festival-6173
-    tinfourl: 
-    tmdurl: 
+    emurl:
+    Tagged:
+      - key: tangopolix
+        url: https://www.tangopolix.com/tango-festivals/benidorm-tango-festival-apr-2016
+      - key: festivalsero
+        url: http://www.festivalsero.com/benidorm_tango_festival-6173
+     
+     
 -
     FF: 
     F: 

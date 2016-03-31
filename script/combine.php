@@ -9,7 +9,7 @@
 
 
   $db = [];
-  $source = "../src/";
+  $source = "../source/";
   foreach (new DirectoryIterator($source) as $fileinfo) {
     if ($fileinfo->isDot()) continue;
     if ($fileinfo->getExtension() != 'yml') continue;
@@ -34,6 +34,8 @@
           echo "Unknown city = ".$ct."\n";
       }
     }
+    
+    
 
 
     $db[] = $dbfrag;
